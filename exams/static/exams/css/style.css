@@ -1,0 +1,108 @@
+/* exams/static/exams/css/style.css */
+
+/* ... (Keep all existing CSS) ... */
+
+/* ======================================= */
+/* 5. RESULTS PAGE STYLES (New Section)    */
+/* ======================================= */
+
+.result-box {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.result-title {
+    color: var(--primary-color); /* Dark Brown */
+    font-weight: 700;
+}
+
+/* Score Card */
+.score-card {
+    padding: 30px;
+    border-radius: 8px;
+    background: #f8f8f8;
+    border: 2px solid #eee;
+}
+
+.status-indicator {
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.status-pass {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-fail {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.score-value {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #333;
+}
+
+.score-number {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.score-label {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 0;
+}
+
+.percentage-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-color); /* Gold/Yellow */
+}
+
+/* Performance Grid */
+.performance-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.grid-item {
+    background: #ffffff;
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.grid-item h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.grid-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.item-correct h4 { color: #28a745; }
+.item-incorrect h4 { color: #dc3545; }
+.item-unattempted h4 { color: #6c757d; }
+.item-total h4 { color: var(--primary-color); }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .performance-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

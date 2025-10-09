@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'exams/css/category_pages.css' %}">
+{% endblock extra_css %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>{{ category.name }} Test Series & Resources</h1>
+        <p style="color: #c9c9e8;">Prepare for success with our curated mock tests for the {{ category.name }} category.</p>
+    </div>
+
+    <div style="text-align: center;">
+        {% if featured_test %}
+        <div class="featured-series-card">
+            
+            <div class="icon-wrapper">
+                <img src="{% static 'exams/images/icons/'|add:category.slug|add:'.png' %}" alt="{{ category.name }} Icon" class="icon">
+            </div>
+            
+            <h2>{{ featured_test.title }}</h2>
+            <p style="color: #c9c9e8;">The latest and most comprehensive mock test in this series.</p>
+
+            <ul class="details">
+                <li><strong>Questions:</strong> {{ featured_test.question_count }}</li>
+                <li><strong>Marks:</strong> {{ featured_test.max_marks }}</li>
+                <li><strong>Duration:</strong> {{ featured_test.time_minutes }} minutes</li>
+                <li><strong>Cost:</strong> {% if featured_test.is_free %}<span style="color: var(--color-primary-accent);">FREE</span>{% else %}Paid{% endif %}</li>
+            </ul>
+
+            <a href="{% url 'test_instructions' test_id=featured_test.id %}" class="btn-explore-series">
+                Start Featured Test
+            </a>
+        </div>
+        {% else %}
+            <div class="featured-series-card">
+                <h2 style="color: var(--color-text-light);">No Featured Test Available</h2>
+                <p style="color: #c9c9e8;">We are currently preparing the test series for this category.</p>
+                <a href="{% url 'test_list' category_slug=category.slug %}" class="btn-explore-series" style="background-color: #6c757d;">
+                    View Test List
+                </a>
+            </div>
+        {% endif %}
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; padding-top: 30px;">
+        <p style="font-size: 1.1rem; color: #c9c9e8;">
+            <a href="{% url 'test_list' category_slug=category.slug %}" style="text-decoration: none; font-weight: bold; color: var(--color-primary-accent);">
+                &#10148; View All {{ category.name }} Mock Tests
+            </a>
+        </p>
+    </div>
+
+</div>
+{% endblock content %}

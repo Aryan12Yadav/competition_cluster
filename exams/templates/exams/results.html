@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load exam_filters %} <--- Loads the custom subtraction and multiplication filters
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'exams/css/results.css' %}">
+{% endblock extra_css %}
+
+{% block title %}{{ page_title %}{% endblock %}
+
+{% block content %}
+<div class="results-container">
+
+    <div class="overall-result-card">
+        <h1>{{ result.mock_test.title }} - Overall Analysis</h1>
+        
+        <div class="score-summary-grid">
+            
+            <div class="stat-box">
+                <p class="label">Correct Answers</p>
+                <span class="value score-correct">{{ result.correct_answers }}</span>
+            </div>
+            
+            <div class="stat-box">
+                <p class="label">Your Score</p>
+                <span class="value score-main">{{ result.score|floatformat:2 }}</span>
+                <p class="label" style="font-size: 0.8rem;">/ {{ result.max_marks|floatformat:0 }} Marks</p>
+            </div>
+            
+            <div class="stat-box">
+                <p class="label">Incorrect</p>
+                <span class="value score-incorrect">{{ result.incorrect_answers }}</span>
+            </div>
+        </div>
+        
+        <div class="score-summary-grid" style="margin-top: 15px;">
+            <div class="stat-box">
+                <p class="label">Accuracy</p>
+                <span class="value score-main">
+                    {% with score_percentage=result.correct_answers|times:100|div:result.mock_test.question_count %}
+                        {{ score_percentage|floatformat:2 }}%
+                    {% endwith %}
+                </span>
+            </div>
+
+            <div class="stat-box">
+                <p class="label">Unattempted</p>
+                <span class="value">{{ result.unattempted }}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="analysis-section">
+        <h2>Time Analysis</h2>
+        <div class="time-analysis-grid">
+            
+            <div class="time-box">
+                <p class="label">Total Time Taken</p>
+                <span class="value">{{ result.time_taken_seconds|floatformat:0 }}s</span>
+            </div>
+            
+            <div class="time-box">
+                <p class="label">Time Per Correct Q</p>
+                <span class="value">{{ time_stats.time_on_correct_avg|floatformat:0 }}s</span>
+            </div>
+            
+            <div class="time-box">
+                <p class="label">Total Test Duration</p>
+                <span class="value">{{ result.mock_test.time_minutes }}:00</span>
+            </div>
+            
+            <div class="time-box">
+                <p class="label">Time Per Incorrect Q</p>
+                <span class="value">{{ time_stats.time_on_incorrect_avg|floatformat:0 }}s</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="analysis-section">
+        <h2>Subject-wise Breakdown</h2>
+        <table class="subject-analysis-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Correct</th>
+                    <th>Incorrect</th>
+                    <th>Unattempted</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subject in subject_analysis %}
+                <tr>
+                    <td>{{ subject.question__subject__name }}</td>
+                    <td style="color: #28a745;">{{ subject.correct_in_subject }}</td>
+                    <td style="color: #dc3545;">{{ subject.incorrect_in_subject }}</td>
+                    <td>{{ subject.total_in_subject|sub:subject.correct_in_subject|sub:subject.incorrect_in_subject }}</td>
+                    <td>{{ subject.total_in_subject }}</td>
+                </tr>
+                {% empty %}
+                <tr><td colspan="5" style="text-align: center; color: #999;">No subject data available for this test.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="action-buttons">
+        <a href="{% url 'leaderboard' test_id=result.mock_test.id %}" class="btn-leaderboard">View Leaderboard</a>
+        <a href="{% url 'answer_review' result_id=result.id %}" class="btn-review">Review Solutions</a>
+        <a href="{% url 'dashboard' %}" class="btn-dashboard">Go to Dashboard</a>
+    </div>
+
+</div>
+{% endblock content %}

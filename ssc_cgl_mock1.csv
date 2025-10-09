@@ -1,0 +1,101 @@
+mock_test_title,subject_name,question_text,option1,option2,option3,option4,correct_option,solution,marks,negative_marks
+SSC CGL Mock Test 2020 - 1,General Awareness,Who was the first Prime Minister of India?,Jawaharlal Nehru,B. R. Ambedkar,Sardar Patel,Maulana Azad,1,Jawaharlal Nehru became the first Prime Minister of India in 1947.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Pick the correctly punctuated sentence.,Lets eat Grandma.,"Let's eat, Grandma.",Let us eat Grandma.,"Lets eat, Grandma.",2,"Correct punctuation: ""Let's eat, Grandma.""",2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,Solve: 11 + 9 × 2 = ?,29,30,28,31,1,11 + 9 × 2 = 29.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the odd one out: 9, 4, 6, 8, 10",9,4,6,8,1,9 is odd while others are even.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"A train 150 m long passes a platform in 12 seconds. If its speed is 36 km/h, what is the length of the platform (in meters)?",-30,-20,-40,-10,1,Platform length = speed(m/s)*time - train length = -30 m.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the next number in the series: 8, 10, 14, 20",28,30,26,32,1,Pattern increases by successive even numbers; next is 28.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the correct synonym of 'Frugal',Economical,Slow,Weak,Angry,1,'Frugal' means 'Economical'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If in a code PAPER is written as QBOFS, how is PYTHON written?",QZUIPO,RAVJQP,PYRLMN,RAVJPO,1,Each letter shifted by +1: PYTHON -> QZUIPO.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Pick the correctly punctuated sentence. (9),Lets eat Grandma.,"Let's eat, Grandma.",Let us eat Grandma.,"Lets eat, Grandma.",2,"Correct punctuation: ""Let's eat, Grandma.""",2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,What is the value of x if 2x + 4 = 26?,11,12,10,13,1,2x + 4 = 26 ⇒ x = 11.0.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the odd one out: 2, 4, 11, 8, 10",2,4,11,8,3,11 is odd while others are even.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the correct synonym of 'Lucid',Clear,Slow,Weak,Angry,1,'Lucid' means 'Clear'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which vitamin is synthesized by the human body when exposed to sunlight?,Vitamin A,Vitamin B12,Vitamin C,Vitamin D,4,Vitamin D is synthesized in the skin on exposure to sunlight.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which element has atomic number 1?,Helium,Hydrogen,Oxygen,Nitrogen,2,Hydrogen has atomic number 1.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Identify the correctly spelt word:,Separate,Seperate,Seperatee,Seperat,1,Correct spelling is 'Separate'.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,The LCM of 8 and 20 is 40. What is the HCF of 8 and 20?,4,5,6,7,1,"HCF = gcd(8,20) = 4.",2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the correct synonym of 'Benevolent',Kind,Slow,Weak,Angry,1,'Benevolent' means 'Kind'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which vitamin is synthesized by the human body when exposed to sunlight? (18),Vitamin A,Vitamin B12,Vitamin C,Vitamin D,4,Vitamin D is synthesized in the skin on exposure to sunlight.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the antonym of 'Hostile',Friendly,Similar,Large,Distant,1,Antonym of 'Hostile' is 'Friendly'.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,What is the value of x if 2x + 12 = 34?,11,12,10,13,1,2x + 12 = 34 ⇒ x = 11.0.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the correct synonym of 'Frugal' (21),Economical,Slow,Weak,Angry,1,'Frugal' means 'Economical'.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,Solve: 34 + 7 × 5 = ?,69,70,68,71,1,34 + 7 × 5 = 69.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,What is the value of x if 2x + 2 = 35?,16,17,15,18,1,2x + 2 = 35 ⇒ x = 16.5.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Who was the President of India in 2000?,K. R. Narayanan,A. P. J. Abdul Kalam,Shankar Dayal Sharma,Pratibha Patil,1,K. R. Narayanan was President of India from 1997 to 2002.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If in a code PAPER is written as QBOFS, how is PYTHON written? (25)",QZUIPO,RAVJQP,PYRLMN,RAVJPO,1,Each letter shifted by +1: PYTHON -> QZUIPO.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,In which year did India adopt its Constitution?,1947,1950,1952,1949,2,"The Constitution of India came into effect on January 26, 1950.",2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Pick the correctly punctuated sentence. (27),Lets eat Grandma.,"Let's eat, Grandma.",Let us eat Grandma.,"Lets eat, Grandma.",2,"Correct punctuation: ""Let's eat, Grandma.""",2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,A is brother of B. B is sister of C. How is A related to C?,Brother,Uncle,Son,Cousin,1,A is brother of B and B is sister of C ⇒ A is brother of C.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the next number in the series: 5, 7, 11, 17",25,27,23,29,1,Pattern increases by successive even numbers; next is 25.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"A train 150 m long passes a platform in 9 seconds. If its speed is 54 km/h, what is the length of the platform (in meters)?",-15,-5,-25,5,1,Platform length = speed(m/s)*time - train length = -15 m.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If in a code PAPER is written as QBOFS, how is PYTHON written? (31)",QZUIPO,RAVJQP,PYRLMN,RAVJPO,1,Each letter shifted by +1: PYTHON -> QZUIPO.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,Solve: 37 + 8 × 2 = ?,53,54,52,55,1,37 + 8 × 2 = 53.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,The headquarters of the World Health Organization (WHO) is located in which city?,Geneva,New York,London,Paris,1,WHO headquarters is in Geneva.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,Solve: 48 + 7 × 10 = ?,118,119,117,120,1,48 + 7 × 10 = 118.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which vitamin is synthesized by the human body when exposed to sunlight? (35),Vitamin A,Vitamin B12,Vitamin C,Vitamin D,4,Vitamin D is synthesized in the skin on exposure to sunlight.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If 'PAPER' is written as 'QBOFS', how is 'CHAIR' written?",DIBJS,DICKT,EJCKT,CHAKT,1,Each letter shifted by +1: CHAIR -> DIBJS.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If 'PAPER' is written as 'QBOFS', how is 'CHAIR' written? (37)",DIBJS,DICKT,EJCKT,CHAKT,1,Each letter shifted by +1: CHAIR -> DIBJS.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Identify the correctly spelt word: (38),Accommodate,Acommodate,Acommodatee,Acommodat,1,Correct spelling is 'Accommodate'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which element has atomic number 1? (39),Helium,Hydrogen,Oxygen,Nitrogen,2,Hydrogen has atomic number 1.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Fill in the blank: She _____ gone to the market.,has,have,had,is,1,Present perfect: She has gone to the market.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,The Tropic of Cancer does NOT pass through which Indian state?,West Bengal,Maharashtra,Bihar,Gujarat,2,"Tropic of Cancer passes through West Bengal, Bihar, Gujarat but not Maharashtra.",2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the next number in the series: 8, 10, 14, 20 (42)",28,30,26,32,1,Pattern increases by successive even numbers; next is 28.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which planet is known as the Red Planet?,Venus,Mars,Jupiter,Saturn,2,Mars is called the Red Planet due to iron oxide on its surface.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,The LCM of 25 and 38 is 950. What is the HCF of 25 and 38?,1,2,3,4,1,"HCF = gcd(25,38) = 1.",2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,Solve: 28 + 3 × 9 = ?,55,56,54,57,1,28 + 3 × 9 = 55.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which is known as the 'City of Lakes' in India?,Bhopal,Udaipur,Hyderabad,Kochi,2,Udaipur is known as the City of Lakes.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the antonym of 'Generous',Stingy,Similar,Large,Distant,1,Antonym of 'Generous' is 'Stingy'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which Indian freedom fighter founded the 'Kirti Kisan' movement?,Lala Lajpat Rai,Bhagat Singh,Subhas Chandra Bose,Rash Behari Bose,2,Bhagat Singh was associated with revolutionary movements like Kirti Kisan.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Pick the correctly punctuated sentence. (49),Lets eat Grandma.,"Let's eat, Grandma.",Let us eat Grandma.,"Lets eat, Grandma.",2,"Correct punctuation: ""Let's eat, Grandma.""",2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Who wrote the Indian national song 'Vande Mataram'?,Rabindranath Tagore,Bankim Chandra Chatterjee,Subramania Bharati,Kavi Pradeep,2,Bankim Chandra Chatterjee wrote 'Vande Mataram'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which metal has the highest electrical conductivity?,Iron,Aluminium,Copper,Silver,3,Copper has very high electrical conductivity; silver is slightly higher but commonly copper is the tested answer.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the odd one out: 2, 13, 6, 8, 10",2,13,6,8,2,13 is odd while others are even.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"If the ratio of two numbers is 5:8 and their sum is 117, find the numbers.",45,72,9,117,1,Numbers are 45 and 72.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the next number in the series: 9, 11, 15, 21",29,31,27,33,1,Pattern increases by successive even numbers; next is 29.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"If 3 men can do a piece of work in 10 days, how many days will 5 men take to do the same work (assuming equal efficiency)?",6.0,7,8,9,1,Men×days = constant ⇒ days = 10×3/5 = 6.0.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the antonym of 'Transparent',Opaque,Similar,Large,Distant,1,Antonym of 'Transparent' is 'Opaque'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Who wrote the Indian national song 'Vande Mataram'? (57),Rabindranath Tagore,Bankim Chandra Chatterjee,Subramania Bharati,Kavi Pradeep,2,Bankim Chandra Chatterjee wrote 'Vande Mataram'.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,The LCM of 27 and 7 is 189. What is the HCF of 27 and 7?,1,2,3,4,1,"HCF = gcd(27,7) = 1.",2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"A train 150 m long passes a platform in 10 seconds. If its speed is 36 km/h, what is the length of the platform (in meters)?",-50,-40,-60,-30,1,Platform length = speed(m/s)*time - train length = -50 m.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Who wrote the Indian national song 'Vande Mataram'? (60),Rabindranath Tagore,Bankim Chandra Chatterjee,Subramania Bharati,Kavi Pradeep,2,Bankim Chandra Chatterjee wrote 'Vande Mataram'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,The Chambal river is a tributary of which major river?,Ganges,Yamuna,Narmada,Godavari,2,Chambal is a tributary of the Yamuna.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the correct synonym of 'Benevolent' (62),Kind,Slow,Weak,Angry,1,'Benevolent' means 'Kind'.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the antonym of 'Ancient',Modern,Similar,Large,Distant,1,Antonym of 'Ancient' is 'Modern'.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"If the ratio of two numbers is 2:10 and their sum is 154, find the numbers.",25,128,12,153,1,Numbers are 25 and 128.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,The LCM of 12 and 33 is 132. What is the HCF of 12 and 33?,3,4,5,6,1,"HCF = gcd(12,33) = 3.",2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the antonym of 'Transparent' (66),Opaque,Similar,Large,Distant,1,Antonym of 'Transparent' is 'Opaque'.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the odd one out: 13, 4, 6, 8, 10",13,4,6,8,1,13 is odd while others are even.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which vitamin is synthesized by the human body when exposed to sunlight? (68),Vitamin A,Vitamin B12,Vitamin C,Vitamin D,4,Vitamin D is synthesized in the skin on exposure to sunlight.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the correct synonym of 'Benevolent' (69),Kind,Slow,Weak,Angry,1,'Benevolent' means 'Kind'.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"A train 150 m long passes a platform in 12 seconds. If its speed is 72 km/h, what is the length of the platform (in meters)?",90,100,80,110,1,Platform length = speed(m/s)*time - train length = 90 m.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the next number in the series: 5, 7, 11, 17 (71)",25,27,23,29,1,Pattern increases by successive even numbers; next is 25.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the next number in the series: 2, 4, 8, 14",22,24,20,26,1,Pattern increases by successive even numbers; next is 22.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If 'PAPER' is written as 'QBOFS', how is 'CHAIR' written? (73)",DIBJS,DICKT,EJCKT,CHAKT,1,Each letter shifted by +1: CHAIR -> DIBJS.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,The Chambal river is a tributary of which major river? (74),Ganges,Yamuna,Narmada,Godavari,2,Chambal is a tributary of the Yamuna.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which metal has the highest electrical conductivity? (75),Iron,Aluminium,Copper,Silver,3,Copper has very high electrical conductivity; silver is slightly higher but commonly copper is the tested answer.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,Solve: 31 + 8 × 8 = ?,95,96,94,97,1,31 + 8 × 8 = 95.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,Simplify: (11^2 - 3^2) / (11 - 3),14,15,13,16,1,(11^2 - 3^2)/(11 - 3) = 11+3 = 14.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the odd one out: 2, 4, 11, 8, 10 (78)",2,4,11,8,3,11 is odd while others are even.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If in a code PAPER is written as QBOFS, how is PYTHON written? (79)",QZUIPO,RAVJQP,PYRLMN,RAVJPO,1,Each letter shifted by +1: PYTHON -> QZUIPO.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If 'PAPER' is written as 'QBOFS', how is 'CHAIR' written? (80)",DIBJS,DICKT,EJCKT,CHAKT,1,Each letter shifted by +1: CHAIR -> DIBJS.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the next number in the series: 4, 6, 10, 16",24,26,22,28,1,Pattern increases by successive even numbers; next is 24.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Pick the correctly punctuated sentence. (82),Lets eat Grandma.,"Let's eat, Grandma.",Let us eat Grandma.,"Lets eat, Grandma.",2,"Correct punctuation: ""Let's eat, Grandma.""",2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which festival is celebrated as the harvest festival in Punjab?,Pongal,Baisakhi,Onam,Lohri,2,Baisakhi is the harvest festival of Punjab.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Who was the President of India in 2000? (84),K. R. Narayanan,A. P. J. Abdul Kalam,Shankar Dayal Sharma,Pratibha Patil,1,K. R. Narayanan was President of India from 1997 to 2002.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,The Chambal river is a tributary of which major river? (85),Ganges,Yamuna,Narmada,Godavari,2,Chambal is a tributary of the Yamuna.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If 'PAPER' is written as 'QBOFS', how is 'CHAIR' written? (86)",DIBJS,DICKT,EJCKT,CHAKT,1,Each letter shifted by +1: CHAIR -> DIBJS.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"If the cost price of an article is Rs. 570 and it is sold at 10% profit, what is the selling price?",Rs 627,Rs 632,Rs 622,Rs 637,1,Selling Price = 570 + 10% of 570 = Rs 627.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,The LCM of 10 and 21 is 210. What is the HCF of 10 and 21?,1,2,3,4,1,"HCF = gcd(10,21) = 1.",2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the odd one out: 2, 13, 6, 8, 10 (89)",2,13,6,8,2,13 is odd while others are even.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which is known as the 'City of Lakes' in India? (90),Bhopal,Udaipur,Hyderabad,Kochi,2,Udaipur is known as the City of Lakes.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which is the smallest ocean in the world?,Arctic Ocean,Indian Ocean,Southern Ocean,Atlantic Ocean,1,The Arctic Ocean is the smallest.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Fill in the blank: She _____ gone to the market. (92),has,have,had,is,1,Present perfect: She has gone to the market.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,What is the value of x if 2x + 8 = 37?,14,15,13,16,1,2x + 8 = 37 ⇒ x = 14.5.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"Find the next number in the series: 5, 7, 11, 17 (94)",25,27,23,29,1,Pattern increases by successive even numbers; next is 25.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If in a code PAPER is written as QBOFS, how is PYTHON written? (95)",QZUIPO,RAVJQP,PYRLMN,RAVJPO,1,Each letter shifted by +1: PYTHON -> QZUIPO.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Who was the first Prime Minister of India? (96),Jawaharlal Nehru,B. R. Ambedkar,Sardar Patel,Maulana Azad,1,Jawaharlal Nehru became the first Prime Minister of India in 1947.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Intelligence & Reasoning,"If 'PAPER' is written as 'QBOFS', how is 'CHAIR' written? (97)",DIBJS,DICKT,EJCKT,CHAKT,1,Each letter shifted by +1: CHAIR -> DIBJS.,2,0.5
+SSC CGL Mock Test 2020 - 1,General Awareness,Which metal has the highest electrical conductivity? (98),Iron,Aluminium,Copper,Silver,3,Copper has very high electrical conductivity; silver is slightly higher but commonly copper is the tested answer.,2,0.5
+SSC CGL Mock Test 2020 - 1,Quantitative Aptitude,"If 3 men can do a piece of work in 6 days, how many days will 5 men take to do the same work (assuming equal efficiency)?",3.6,4,5,6,1,Men×days = constant ⇒ days = 6×3/5 = 3.6.,2,0.5
+SSC CGL Mock Test 2020 - 1,English Language,Choose the correct synonym of 'Benevolent' (100),Kind,Slow,Weak,Angry,1,'Benevolent' means 'Kind'.,2,0.5

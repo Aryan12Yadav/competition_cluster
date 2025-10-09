@@ -1,0 +1,252 @@
+/* FILE: exams/static/exams/css/base.css (Final Version with Dark Body Background and Thematic Fixes) */
+
+:root {
+    /* --- COLOR PALETTE DEFINITIONS (Dark/Teal Theme) --- */
+    --color-bg-dark: #0f2027;        /* Primary Dark Background (Used for Navbar) */
+    --color-bg-mid: #203a43;         /* Secondary Dark Background (Used for Body) */
+    --color-text-light: #f8f9fa;     /* Light Text Color */
+    
+    /* Primary Accent Color (Teal/Green) */
+    --color-primary-accent: #43cea2; 
+    
+    /* Project's original secondary colors for forms/modal tabs */
+    --color-project-brown: #A0522D; 
+    --color-project-dark-brown: #4E3524;
+}
+
+body {
+    /* Set body background to the dark secondary color */
+    background-color: var(--color-bg-mid) !important; 
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* --- NAVIGATION BAR STYLES --- */
+.main-navbar {
+    background-color: var(--color-bg-dark); /* Dark Background */
+    border-bottom: 1px solid #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color: var(--color-text-light); 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 30px; 
+    margin-right: 8px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #c9c9e8; /* Light gray link text */
+    padding: 5px 0;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: var(--color-primary-accent); /* Teal accent on hover */
+}
+
+/* Nav Actions (Search and Login/CTA) */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-box {
+    display: flex;
+    border: 1px solid #444;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 8px 10px;
+    outline: none;
+    width: 150px;
+    background-color: #21223e;
+    color: var(--color-text-light);
+}
+
+.search-btn {
+    background-color: var(--color-primary-accent);
+    color: #0f2027; 
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+/* --- STYLES FOR CTA BUTTON (Login/Signup) --- */
+
+/* 1. Style for the plain text 'Login' link */
+.nav-actions .btn-text-link {
+    text-decoration: none;
+    color: var(--color-text-light); 
+    padding: 8px 15px; 
+    font-weight: 600; 
+    transition: color 0.2s;
+}
+
+.nav-actions .btn-text-link:hover {
+    color: var(--color-primary-accent); 
+}
+
+/* 2. Styles for the prominent Call-to-Action button (Start Free Test) */
+.nav-actions .btn-cta {
+    background-color: var(--color-primary-accent); 
+    color: var(--color-bg-dark);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px; 
+    font-weight: bold;
+    border: 1px solid var(--color-primary-accent);
+    transition: background-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(67, 206, 162, 0.4); 
+}
+
+.nav-actions .btn-cta:hover {
+    background-color: #38b087; 
+    box-shadow: 0 6px 15px rgba(67, 206, 162, 0.5); 
+}
+
+/* 3. Existing buttons (Dashboard/Logout) */
+.btn-login, .btn-logout {
+    background-color: var(--color-primary-accent);
+    color: var(--color-bg-dark);
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.btn-login:hover, .btn-logout:hover {
+    background-color: #38b087;
+}
+
+/* --- STYLES FOR DYNAMIC NAVBAR --- */
+.nav-links li.active > a {
+    color: var(--color-primary-accent);
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2c5364; /* Darker dropdown background */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: var(--color-text-light);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--color-bg-mid);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.arrow.down {
+    border: solid var(--color-text-light);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+/* --- AUTH MODAL STYLES (Kept light for contrast with dark background) --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content and Fixes */
+.modal-content {
+    background-color: #fff;
+    width: 400px;
+    max-width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1001 !important;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.tab-buttons .tab-btn.active {
+    color: var(--color-project-brown); 
+    border-bottom: 3px solid var(--color-project-brown);
+}
+.close-btn, .tab-btn {
+    z-index: 1002 !important;
+    position: relative !important; 
+}
+
+.form-container h2 {
+    color: var(--color-project-dark-brown);
+}
+
+.submit-btn {
+    background-color: var(--color-project-brown);
+    color: white;
+    /* ... existing styles ... */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}

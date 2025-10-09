@@ -1,0 +1,48 @@
+{% extends 'exams/base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'exams/css/search_results.css' %}">
+{% endblock extra_css %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<div class="search-container">
+    
+    <div class="search-header">
+        <h1>Search results for: "<span class="query">{{ query }}</span>"</h1>
+    </div>
+
+    <hr class="my-4">
+
+    <div class="results-list">
+        {% if results %}
+            <p>{{ results.count }} test{{ results.count|pluralize }} found.</p>
+
+            {% for test in results %}
+                <div class="result-item">
+                    <div class="info">
+                        <h3>
+                            <a href="{% url 'test_instructions' test_id=test.id %}">{{ test.title }}</a>
+                        </h3>
+                        <div class="meta">
+                            <span>Category: {{ test.category.name }}</span>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <a href="{% url 'test_instructions' test_id=test.id %}" class="btn-view">View Test</a>
+                    </div>
+                </div>
+            {% endfor %}
+
+        {% else %}
+            <div class="no-results">
+                <p>No tests were found matching your search term '{{ query }}'.</p>
+                <p>Please try a different search term.</p>
+            </div>
+        {% endif %}
+    </div>
+
+</div>
+{% endblock content %}

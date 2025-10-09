@@ -1,0 +1,109 @@
+/* FILE: exams/static/exams/css/solutions.css */
+
+.solutions-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.solutions-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.solutions-header h1 {
+    font-size: 2.5rem;
+    color: #4E3524; /* Dark Brown */
+}
+
+.question-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.question-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.question-header .question-number {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #A0522D; /* Primary Brown */
+}
+
+.question-body {
+    padding: 20px;
+}
+
+.question-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.option-list {
+    list-style: none;
+    padding: 0;
+}
+
+.option-item {
+    padding: 15px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Base style for the correct answer */
+.option-correct {
+    background-color: #e9f7ef; /* Light green */
+    border-color: #28a745; /* Green */
+}
+
+/* Style for the user's wrong answer */
+.option-incorrect {
+    background-color: #fbe9eb; /* Light red */
+    border-color: #dc3545; /* Red */
+}
+
+.option-tag {
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.tag-your-answer {
+    background-color: #6c757d; /* Grey */
+}
+
+.tag-correct-answer {
+    background-color: #28a745; /* Green */
+}
+
+.solution-box {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f8f4ee; /* Light beige */
+    border-left: 4px solid #A0522D; /* Primary Brown */
+    border-radius: 4px;
+}
+
+.solution-box h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #4E3524;
+    font-size: 1.1rem;
+}
+
+.solution-box p {
+    margin: 0;
+    line-height: 1.7;
+}

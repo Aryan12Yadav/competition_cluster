@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'exams/css/test_list.css' %}">
+{% endblock extra_css %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="test-list-header">
+        <h1 style="font-size: 2.2rem; margin-bottom: 0;">Your Exam Series Dashboard</h1>
+    </div>
+    <p style="color: #777; text-align: center; margin-top: -15px; margin-bottom: 40px;">
+        Jump back into your preparation series.
+    </p>
+
+    <div class="test-card-container">
+        
+        {% for category in categories_with_latest_test %}
+        <div class="mock-test-card">
+            
+            <div class="card-header">
+                <img src="{% static 'exams/images/icons/'|add:category.slug|add:'.png' %}" alt="{{ category.name }} Icon" class="icon" style="width: 50px; height: 50px;">
+                
+                {% if category.latest_test_title %}
+                    <span class="tag-new">ACTIVE</span>
+                {% endif %}
+            </div>
+
+            <div class="card-body">
+                <h3 style="color: #A0522D;">{{ category.name }}</h3>
+                
+                <ul class="card-details">
+                    <li>Latest Test: 
+                        <strong>
+                        {% if category.latest_test_title %}
+                            {{ category.latest_test_title }}
+                        {% else %}
+                            No recent tests
+                        {% endif %}
+                        </strong>
+                    </li>
+                    <li>Total Tests: {{ category.mock_tests.count }}</li> 
+                </ul>
+
+                <a href="{% url 'test_list' category_slug=category.slug %}" class="btn-explore">
+                    Explore Tests
+                </a>
+            </div>
+        </div>
+        {% empty %}
+            <div style="text-align: center; padding: 20px; background-color: #fff8e1; border-radius: 8px; grid-column: 1 / -1;">
+                <p style="color: #A0522D; font-weight: 600;">No exam categories have been configured yet.</p>
+            </div>
+        {% endfor %}
+
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'exams/css/instructions.css' %}">
+{% endblock extra_css %}
+
+{% block title %}Instructions - {{ mock_test.title }}{% endblock %}
+
+{% block content %}
+<div class="instructions-container">
+    <div class="instructions-card">
+        
+        <h1>General Instructions for:</h1>
+        <h2 class="mock-test-title">{{ mock_test.title }}</h2>
+
+        <div class="key-info-grid">
+            <div class="info-item">
+                <h3>Duration</h3>
+                <p>{{ mock_test.time_minutes }} mins</p>
+            </div>
+            <div class="info-item">
+                <h3>Maximum Marks</h3>
+                <p>{{ mock_test.max_marks|floatformat:0 }}</p>
+            </div>
+        </div>
+
+        <h3 class="section-title">Subject Breakdown:</h3>
+        <table class="breakdown-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>SUBJECT</th>
+                    <th>No. of Questions</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subject in subject_breakdown %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ subject.subject__name }}</td>
+                    <td>{{ subject.question_count }}</td>
+                    <td>{{ subject.total_marks|floatformat:0 }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4" style="color: var(--color-text-light); text-align: center;">Subject details have not been added for this test yet.</td>
+                </tr>
+                {% endfor %}
+                <tr style="font-weight: bold; background-color: var(--color-bg-mid); color: var(--color-primary-accent);">
+                    <td></td>
+                    <td>Total</td>
+                    <td>{{ mock_test.question_count }}</td>
+                    <td>{{ mock_test.max_marks|floatformat:0 }}</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3 class="section-title">Please read the following instructions carefully:</h3>
+        <div class="general-instructions">
+            <ol>
+                <li>The test contains <strong>{{ mock_test.question_count }} questions</strong> across multiple sections.</li>
+                <li>Each question has 4 options, out of which only one is correct.</li>
+                <li>There may be negative marking for incorrect answers.</li>
+                <li>You must finish the test within the allotted time of <strong>{{ mock_test.time_minutes }} minutes</strong>.</li>
+            </ol>
+        </div>
+
+        <div class="start-test-btn-container">
+            <a href="{% url 'test_list' category_slug=mock_test.category.slug %}" class="btn-secondary-action">
+                &laquo; Back to Test List
+            </a>
+            <a href="{% url 'start_test' test_id=mock_test.id %}" class="btn-start-test">
+                Start Test Now
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'exams/css/home.css' %}">
+{% endblock extra_css %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+
+{% if featured_test %}
+<section class="featured-banner">
+    <div class="container banner-content">
+        <div class="banner-text">
+            <h1>{{ featured_test.title }}</h1> 
+            <div class="banner-tags">
+                <span class="tag">10 Full Length Test</span>
+                <span class="tag">Bilingual</span>
+                <span class="tag">Based on Latest Pattern</span>
+            </div>
+        </div>
+        <div class="banner-image">
+            <img src="{% static 'exams/images/banner_person.png' %}" alt="{{ featured_test.title }}">
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<section class="container exam-grid-section">
+    <div class="section-header">
+        <span class="section-tag">UPCOMING EXAMS</span>
+        <h2 class="section-title" style="color: var(--color-text-light);">Free Mock Test for Upcoming Exam</h2> 
+    </div>
+    
+    <div class="category-cards-wrapper">
+        {% for category in all_categories %}
+        <a href="{% url 'category_detail' category_slug=category.slug %}" class="category-card">
+            <img src="{% static 'exams/images/icons/'|add:category.slug|add:'.png' %}" alt="{{ category.name }} Icon">
+            <p class="category-name">{{ category.name }}</p>
+        </a>
+        {% empty %}
+        <p style="color: var(--color-text-light);">No exam categories have been added yet.</p>
+        {% endfor %}
+    </div>
+</section>
+
+{% if not user.is_authenticated %}
+<div id="auth-modal-overlay" class="modal-overlay">
+    <div id="auth-modal" class="modal-content">
+        <div class="modal-header">
+            <div class="tab-buttons">
+                <button id="login-tab-btn" class="tab-btn active">Login</button>
+                <button id="signup-tab-btn" class="tab-btn">Sign Up</button>
+            </div>
+            <button id="close-modal-btn" class="close-btn">&times;</button>
+        </div>
+
+        <div id="login-form-container" class="form-container">
+            <h2>Welcome Back!</h2>
+            <form method="post" action="{% url 'login' %}">
+                {% csrf_token %}
+                {{ login_form.as_p }}
+                <input type="hidden" name="next" value="{{ request.path }}">
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+
+        <div id="signup-form-container" class="form-container" style="display: none;">
+            <h2>Create Your Account</h2>
+            <form method="post" action="{% url 'signup' %}">
+                {% csrf_token %}
+                {{ signup_form.as_p }}
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% endblock content %}
+
+{% block extra_js %}
+    <script src="{% static 'exams/js/modal.js' %}"></script>
+{% endblock extra_js %}

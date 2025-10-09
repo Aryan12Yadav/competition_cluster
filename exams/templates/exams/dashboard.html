@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'exams/css/results.css' %}">
+    <link rel="stylesheet" href="{% static 'exams/css/dashboard.css' %}">
+{% endblock extra_css %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<div class="results-container">
+    
+    <div class="overall-result-card" style="text-align: left; padding: 20px 30px;">
+        <h1 style="font-size: 2rem; color: var(--color-text-light);">Hello, {{ request.user.username }}!</h1>
+        <p style="font-size: 1rem; color: #c9c9e8;">Welcome to your personalized performance hub.</p>
+    </div>
+
+    <div class="score-summary-grid" style="justify-content: flex-start; margin-top: 20px;">
+        
+        <div class="stat-box" style="width: 250px;">
+            <p class="label">Tests Completed</p>
+            <span class="value score-main">{{ tests_completed_count }}</span>
+        </div>
+
+        <div class="stat-box" style="width: 250px;">
+            <p class="label">Last Activity</p>
+            <span class="value" style="font-size: 1.2rem;">{{ request.user.last_login|date:"M j, Y, P" }}</span>
+        </div>
+    </div>
+    
+    <div class="analysis-section" style="margin-top: 40px;">
+        <h2>Your Recent Test History</h2>
+
+        {% if test_results %}
+        <div style="overflow-x: auto;">
+            <table class="subject-analysis-table" style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th style="width: 40%;">Test Name</th>
+                        <th style="text-align: center;">Score</th>
+                        <th style="text-align: center;">Correct</th>
+                        <th style="text-align: center;">Incorrect</th>
+                        <th style="text-align: center;">Date</th>
+                        <th style="text-align: center;">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for result in test_results %}
+                    <tr>
+                        <td>{{ result.mock_test.title }}</td>
+                        <td style="text-align: center; color: var(--color-primary-accent);">
+                            <strong>{{ result.score|floatformat:2 }}</strong> / {{ result.max_marks|floatformat:0 }}
+                        </td>
+                        <td style="text-align: center; color: #28a745;">{{ result.correct_answers }}</td>
+                        <td style="text-align: center; color: #dc3545;">{{ result.incorrect_answers }}</td>
+                        <td style="text-align: center;">{{ result.end_time|date:"M j, Y" }}</td>
+                        <td style="text-align: center;">
+                            <a href="{% url 'answer_review' result_id=result.id %}" style="color: var(--color-primary-accent); text-decoration: none; font-weight: 600;">
+                                View Report
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="overall-result-card" style="background-color: var(--color-bg-dark); padding: 30px;">
+            <p style="color: var(--color-text-light); font-weight: 600;">You haven't attempted any tests yet!</p>
+            <a href="{% url 'home' %}" style="text-decoration: none; color: var(--color-primary-accent);">Start your first mock test now.</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock content %}

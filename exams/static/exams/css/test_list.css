@@ -1,0 +1,286 @@
+/* FILE: exams/static/exams/css/live_test.css (Final Version with All Fixes) */
+
+body.live-test-body {
+    /* Uses the dark secondary background color from :root in base.css */
+    background-color: var(--color-bg-mid); /* #203a43 */
+    font-family: sans-serif;
+    color: var(--color-text-light); /* Light text color for readability against dark body */
+    margin: 0;
+}
+
+/* --- Header Bar --- */
+.test-header {
+    /* Uses the darker primary background color from :root */
+    background-color: var(--color-bg-dark); /* #0f2027 */
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #333;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+.test-title-live {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 600;
+    color: var(--color-text-light); /* White/Light text color */
+}
+
+/* --- Alignment Fix: Header Right (Timer and Button Side-by-Side) --- */
+.header-right {
+    display: flex; 
+    align-items: center; 
+    gap: 15px; 
+}
+
+/* --- Timer Color Fix: Blue --- */
+.test-timer {
+    background-color: #007bff; /* Vibrant Blue background */
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white; /* White text for visibility on blue background */
+    border: 1px solid #0056b3; /* Darker blue border for contrast */
+}
+
+/* --- Submit Button Color Fix: Green --- */
+.btn-submit-test {
+    background-color: #28a745; /* Green Color */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-submit-test:hover {
+    background-color: #218838; /* Slightly darker green on hover */
+}
+
+/* --- Main Grid Layout --- */
+.test-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 300px; 
+    gap: 30px;
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* --- Left Panel: Question Area (Text Visibility Fix) --- */
+.question-panel {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    color: #333; /* CRITICAL FIX: Force dark text on white panel */
+}
+
+.question-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.option-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    border: 2px solid #eee;
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.option-item:hover {
+    border-color: var(--color-primary-accent); /* Teal accent on hover */
+    background-color: #f8f4ee;
+}
+
+.option-item label {
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.option-item input[type="radio"] {
+    margin-right: 15px;
+    transform: scale(1.3);
+    accent-color: var(--color-primary-accent); /* Teal accent for radio button */
+}
+
+.bottom-navigation-controls {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+}
+
+/* --- Navigation Buttons Fix: Red Color --- */
+.btn-nav {
+    background-color: #dc3545; /* Red Color */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+.btn-nav:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+.btn-nav:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* --- Right Panel: Navigation Palette (Text Visibility Fix) --- */
+.navigation-panel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    align-self: flex-start; 
+    position: sticky;
+    top: 100px; 
+    color: #333; /* CRITICAL FIX: Force dark text on white panel */
+}
+
+.panel-title {
+    color: var(--color-project-dark-brown);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin: 0 0 15px 0;
+    font-size: 1.3rem;
+}
+
+.question-palette-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.palette-item {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.status-key {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+.key-box.unanswered { background-color: #f8f9fa; border: 1px solid #ddd; }
+.key-box.answered { background-color: #28a745; }
+.key-box.marked { background-color: #ffc107; }
+
+/* Status Colors (JavaScript will apply these classes) */
+.palette-item.unanswered { border-color: #ddd; }
+.palette-item.answered { background-color: #28a745; color: white; border-color: #28a745; }
+.palette-item.marked { background-color: #ffc107; color: #333; border-color: #ffc107; }
+
+/* --- SUBMISSION SUCCESS MODAL STYLES --- */
+
+.submission-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.submission-modal-content {
+    background-color: var(--color-bg-dark); /* Dark primary background for the modal body */
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border: 3px solid var(--color-primary-accent); /* Teal border accent */
+    color: var(--color-text-light);
+}
+
+.success-icon {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 20px;
+    color: var(--color-primary-accent); /* Teal accent color for the icon */
+    animation: bounce 0.8s ease-in-out;
+}
+
+.modal-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.modal-message {
+    color: #c9c9e8; /* Light gray text */
+    margin-bottom: 30px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Primary Action Button (View Result) */
+.btn-primary-action {
+    background-color: var(--color-primary-accent); /* Vibrant Teal */
+    color: var(--color-bg-dark); /* Dark text on Teal button */
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.2s;
+}
+.btn-primary-action:hover {
+    background-color: #38b087; /* Slightly darker teal */
+    transform: translateY(-2px);
+}
+
+/* Secondary Action Button (Review Solutions) */
+.btn-secondary-action {
+    background-color: var(--color-bg-mid); /* Darker gray background */
+    color: var(--color-text-light);
+    border: 1px solid #444;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+.btn-secondary-action:hover {
+    background-color: #333;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}

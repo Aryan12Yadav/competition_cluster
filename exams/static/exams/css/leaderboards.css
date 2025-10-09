@@ -1,0 +1,67 @@
+/* FILE: exams/static/exams/css/leaderboard.css */
+
+.leaderboard-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.leaderboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.leaderboard-header h1 {
+    font-size: 2.5rem;
+    color: #4E3524; /* Dark Brown */
+    margin: 0;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    overflow: hidden; /* Important for border-radius on table */
+}
+
+.leaderboard-table thead th {
+    background-color: #A0522D; /* Primary Brown */
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.leaderboard-table tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.leaderboard-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.rank {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 10%;
+}
+
+.username {
+    font-weight: 600;
+    color: #333;
+}
+
+.score {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #28a745; /* Green */
+    width: 20%;
+}
+
+/* Special styles for Top 3 Ranks */
+.rank-1 .rank, .rank-1 .username { color: #D4AF37; } /* Gold */
+.rank-2 .rank, .rank-2 .username { color: #C0C0C0; } /* Silver */
+.rank-3 .rank, .rank-3 .username { color: #CD7F32; } /* Bronze */

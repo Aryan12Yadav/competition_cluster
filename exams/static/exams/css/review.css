@@ -1,0 +1,80 @@
+/* FILE: exams/static/exams/css/review.css (Final Priority Fix) */
+
+.review-container {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.review-header {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6;
+}
+
+.question-block {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+.question-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.option-item {
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 1. SUCCESS STYLE: Green Box for Correct Answer */
+.option-correct {
+    background-color: #e9f7ef !important; /* Light green (Forced Priority) */
+    border-color: #28a745 !important; /* Green (Forced Priority) */
+}
+
+/* 2. FAILURE STYLE: Red Box for User's Wrong Answer */
+.option-incorrect {
+    background-color: #fbe9eb; /* Light red */
+    border-color: #dc3545; /* Red */
+}
+
+.option-tag {
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: white;
+}
+
+.tag-your-answer {
+    background-color: #007bff; /* Blue */
+}
+
+.tag-correct-answer {
+    background-color: #28a745 !important; /* Green (Forced Priority) */
+}
+
+.solution-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eef7ff; /* Light blue */
+    border-left: 4px solid #007bff; /* Blue */
+    border-radius: 4px;
+}
+
+.solution-box h5 {
+    margin-top: 0;
+    color: #0056b3;
+}

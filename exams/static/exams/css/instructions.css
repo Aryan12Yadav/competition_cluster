@@ -1,0 +1,172 @@
+/* FILE: exams/static/exams/css/instructions.css (Dark Contrast UI Block Style) */
+
+:root {
+    /* Ensure variables are accessible, though they should be from base.css */
+    --color-bg-dark: #0f2027;        /* Primary Dark Background */
+    --color-bg-mid: #203a43;         /* Secondary Dark Background */
+    --color-text-light: #f8f9fa;     /* Light Text Color */
+    --color-primary-accent: #43cea2; /* Teal Accent */
+    --color-project-brown: #A0522D; 
+    --color-project-dark-brown: #4E3524;
+}
+
+.instructions-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* --- Overall Instructions Card (Main Block) --- */
+.instructions-card {
+    background-color: var(--color-bg-dark); /* Dark primary background for the card */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6); 
+    color: var(--color-text-light); /* Light text */
+    border: 1px solid #333; 
+    margin-bottom: 30px;
+}
+
+.instructions-title {
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #c9c9e8; /* Light gray text */
+    text-align: center;
+}
+
+.instructions-category {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: var(--color-primary-accent); /* Teal accent for the title */
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+}
+
+/* --- Key Info Grid (Duration & Marks) --- */
+.test-details-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 30px 0;
+    padding: 0;
+    /* FIX: Remove background color to show dark card */
+    border-radius: 0;
+}
+
+.detail-item {
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-align: center;
+    flex-grow: 1;
+    background-color: var(--color-bg-mid); /* Secondary dark color for inner block */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.detail-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #c9c9e8; /* Light gray label */
+}
+
+.detail-item .value {
+    font-size: 1.8rem; /* Increased size for dashboard consistency */
+    font-weight: 800;
+    color: var(--color-primary-accent); /* Teal accent for values */
+}
+
+/* --- Subject Breakdown Table --- */
+.section-title {
+    font-size: 1.6rem;
+    color: var(--color-primary-accent); /* Teal accent for section titles */
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.breakdown-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+.breakdown-table thead th {
+    background-color: var(--color-bg-mid); /* Darker header background */
+    color: var(--color-text-light);
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid #444;
+}
+
+.breakdown-table tbody td {
+    background-color: var(--color-bg-dark); 
+    color: var(--color-text-light);
+    padding: 12px 15px;
+    border-bottom: 1px solid #444;
+}
+
+.breakdown-table tbody tr:nth-child(even) td {
+    background-color: #1a313d; /* Alternate dark row */
+}
+
+/* --- General Instructions List --- */
+.general-instructions {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.general-instructions ol {
+    list-style-type: decimal;
+    padding-left: 25px;
+    line-height: 1.8;
+    color: #c9c9e8; 
+    font-size: 1rem;
+}
+
+.general-instructions ol li strong {
+    color: var(--color-primary-accent); /* Teal highlight for important words */
+}
+
+
+/* --- Action Buttons --- */
+.start-test-btn-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-start-test {
+    background-color: var(--color-primary-accent); /* Teal accent color */
+    color: var(--color-bg-dark); /* Dark text on teal button */
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(67, 206, 162, 0.4); 
+}
+
+.btn-start-test:hover {
+    background-color: #38b087; 
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(67, 206, 162, 0.6); 
+}
+
+.btn-secondary-action { /* For the 'Back' button */
+    background-color: var(--color-bg-mid);
+    color: var(--color-text-light);
+    border: 1px solid #444;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 15px;
+}

@@ -1,0 +1,66 @@
+/* FILE: exams/static/exams/css/search_results.css */
+
+.search-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.search-header h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #555;
+}
+
+.search-header .query {
+    font-weight: 700;
+    color: #A0522D; /* Your primary brown color */
+}
+
+.no-results {
+    background-color: #fff8e1;
+    border: 1px solid #ffecb3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.result-item {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.2s;
+}
+
+.result-item:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.result-item .info h3 {
+    margin: 0 0 10px 0;
+}
+
+.result-item .info a {
+    text-decoration: none;
+    color: #4E3524; /* Dark brown */
+    font-size: 1.3rem;
+}
+
+.result-item .meta {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.result-item .actions .btn-view {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}

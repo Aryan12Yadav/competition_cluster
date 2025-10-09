@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }}</title> 
+    
+    <link rel="stylesheet" href="{% static 'exams/css/live_test.css' %}">
+
+    <style>
+        body.live-test-body {
+            /* Force the dark background color from the variable --color-bg-mid (#203a43) */
+            background-color: #203a43 !important; 
+            /* Ensure text outside of white panels is light */
+            color: #f8f9fa !important; 
+        }
+    </style>
+</head>
+<body class="live-test-body">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}" id="csrf-token-input">
+
+    <header class="test-header" data-test-id="{{ mock_test.id }}" data-duration="{{ mock_test.time_minutes }}">
+        <h1 class="test-title-live">{{ mock_test.title }}</h1>
+        <div class="header-right">
+            <div class="test-timer">
+                Time Left: <span id="timer-display">--:--</span>
+            </div>
+            <button id="submit-test-btn" class="btn-submit-test">Submit Test</button>
+        </div>
+    </header>
+
+    <div class="test-main-grid">
+        
+        <div class="question-panel">
+            <div class="question-navigation-info" style="margin-bottom: 20px; font-weight: bold; color: #555;">
+                Question <span id="current-q-number">1</span> of {{ questions.count }}
+            </div>
+            
+            {% for question in questions %}
+            <div class="question-container" data-id="{{ question.id }}" style="display: {% if forloop.first %}block{% else %}none{% endif %};">
+                
+                <div class="question-text">
+                    <p>{{ question.text|safe }}</p>
+                </div>
+                
+                <form class="answer-form">
+                    {% for option in question.options.all %}
+                    <div class="option-item">
+                        <label>
+                            <input type="radio" id="option-{{ option.id }}" name="q-{{ question.id }}" value="{{ option.id }}">
+                            {{ option.text|safe }}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </form>
+            </div>
+            {% endfor %}
+
+            <div class="bottom-navigation-controls">
+                <button id="prev-btn" class="btn-nav" disabled>&laquo; Previous</button>
+                <button id="mark-review-btn" class="btn-nav">Mark for Review</button>
+                <button id="next-btn" class="btn-nav">Save & Next &raquo;</button>
+            </div>
+        </div>
+
+        <div class="navigation-panel">
+            <h3 class="panel-title">Question Palette</h3>
+            <div class="question-palette-grid">
+                </div>
+            
+            <h3 class="panel-title">Legend</h3>
+            <ul class="status-key">
+                <li><span class="key-box answered"></span> Answered</li>
+                <li><span class="key-box unanswered"></span> Not Answered</li>
+                <li><span class="key-box marked"></span> Marked for Review</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="success-modal-overlay" class="submission-modal-overlay" style="display: none;">
+        <div class="submission-modal-content">
+            
+            <span class="success-icon">✅</span>
+            
+            <h2 class="modal-title">Test Submitted Successfully!</h2>
+            
+            <p class="modal-message">Your score has been recorded and the leaderboard is updated.</p>
+
+            <div class="modal-actions">
+                <a href="#" id="view-result-btn" class="btn btn-primary-action">View Result</a>
+                <a href="#" id="review-solution-btn" class="btn btn-secondary-action">Review Solutions</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'exams/js/live_test.js' %}"></script>
+</body>
+</html>

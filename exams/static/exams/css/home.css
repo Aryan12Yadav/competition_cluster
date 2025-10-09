@@ -1,0 +1,114 @@
+/* FILE: exams/static/exams/css/home.css (MODIFIED FOR DARK CONTRAST UI) */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- FEATURED TEST BANNER (Dark Block Style) --- */
+.featured-banner {
+    /* Use the darker theme color for the block background */
+    background-color: var(--color-bg-dark); /* #0f2027 */ 
+    color: var(--color-text-light); /* Light text on dark background */
+    padding: 40px 0;
+    margin-bottom: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-tags {
+    display: flex;
+    gap: 15px;
+}
+
+.banner-tags .tag {
+    /* Subtle glow effect on the tag, using Teal accent color */
+    background-color: rgba(67, 206, 162, 0.2); 
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    border: 1px solid var(--color-primary-accent);
+}
+
+.banner-image img {
+    max-height: 250px; 
+    width: auto;
+}
+
+/* --- EXAM GRID SECTION --- */
+.exam-grid-section {
+    padding-bottom: 80px;
+}
+
+.section-header {
+    margin-bottom: 30px;
+}
+
+.section-header .section-tag {
+    /* Use Teal accent color for the tag */
+    background-color: var(--color-primary-accent); 
+    color: var(--color-bg-dark); /* Dark text on bright tag */
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.section-header .section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    /* FIX: Ensures title text is visible against the dark body background */
+    color: var(--color-text-light); 
+}
+
+.category-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
+    gap: 25px;
+}
+
+.category-card {
+    /* CRITICAL FIX: Use dark background for the card itself (like the dashboard blocks) */
+    background-color: var(--color-bg-dark); 
+    padding: 20px 10px;
+    border: 1px solid #444; /* Subtle dark border */
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-text-light); /* Light text on dark card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-primary-accent); /* Teal border on hover */
+    box-shadow: 0 8px 20px rgba(67, 206, 162, 0.3);
+}
+
+.category-card img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+    border-radius: 50%; /* Give icons a circular frame */
+    border: 3px solid var(--color-bg-mid);
+}
+
+.category-card .category-name {
+    font-weight: 600;
+    color: var(--color-primary-accent); /* Teal text for category name */
+}

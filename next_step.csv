@@ -1,0 +1,4 @@
+category_slug,title,question_count,max_marks,time_minutes,is_free,is_new,is_popular
+ssc-cgl,SSC CGL Tier 1 - Main Mock Test,100,200,60,True,True,True
+ssc-cgl,SSC CGL Practice Set 1,25,50,20,True,False,False
+ibps-clerk,IBPS Clerk Prelims Mock #3,100,100,60,False,True,True

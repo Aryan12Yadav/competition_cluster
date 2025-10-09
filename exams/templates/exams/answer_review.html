@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'exams/css/review.css' %}">
+    
+    <style>
+        .option-item.option-correct {
+            background-color: #e9f7ef !important; /* Light green */
+            border-color: #28a745 !important; /* Green border */
+        }
+        .option-tag.tag-correct-answer {
+            background-color: #28a745 !important; /* Green tag background */
+        }
+    </style>
+{% endblock extra_css %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<div class="review-container">
+
+    <div class="review-header">
+        <h1 style="color: #4E3524;">Solution Review</h1>
+        <p>Test: <strong>{{ result.mock_test.title }}</strong> | Your Score: 
+            <span style="color: #28a745; font-weight: bold;">{{ result.score|floatformat:2 }}</span> / {{ result.max_marks|floatformat:0 }}
+        </p>
+    </div>
+
+    {% for data in review_data %}
+    <div class="question-block">
+        
+        <div class="question-text">
+            {{ forloop.counter }}. {{ data.question_text|safe }}
+        </div>
+        
+        {% for option in data.options %}
+            {% with option.id as current_option_id %}
+            
+            {% comment %} 
+                Check 1 (Highest Priority): Is this the Correct Answer? (Applies guaranteed green style)
+            {% endcomment %}
+            {% if current_option_id == data.correct_option_id %}
+                
+                <div class="option-item option-correct"> 
+                    <span style="font-weight: 500;">{{ option.text|safe }}</span>
+                    <span class="option-tag tag-correct-answer">
+                        {% if current_option_id == data.user_selected_option_id %}
+                            Your Answer & Correct
+                        {% else %}
+                            Correct Answer
+                        {% endif %}
+                    </span>
+                </div>
+            
+            {% comment %} 
+                Check 2: Is this the User's selected answer (and therefore wrong)? (Applies red style)
+            {% endcomment %}
+            {% elif current_option_id == data.user_selected_option_id %}
+                
+                <div class="option-item option-incorrect">
+                    <span style="font-weight: 500;">{{ option.text|safe }}</span>
+                    <span class="option-tag tag-your-answer">Your Answer (Wrong)</span>
+                </div>
+            
+            {% else %}
+                <div class="option-item">
+                    <span style="font-weight: 500; color: #555;">{{ option.text|safe }}</span>
+                </div>
+            {% endif %}
+            
+            {% endwith %}
+        {% endfor %}
+
+        {% if data.solution %}
+        <div class="solution-box">
+            <h5>Detailed Solution</h5>
+            <p>{{ data.solution|safe }}</p>
+        </div>
+        {% endif %}
+
+    </div>
+    {% endfor %}
+
+    <div style="text-align: center; margin-top: 40px; padding-bottom: 20px;">
+        <a href="{% url 'test_results' result_id=result.id %}" class="btn-back" style="text-decoration: none; color: #A0522D; font-weight: bold;">
+            &laquo; Back to Analysis
+        </a>
+    </div>
+
+</div>
+{% endblock content %}
