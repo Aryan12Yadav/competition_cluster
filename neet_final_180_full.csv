@@ -1,0 +1,181 @@
+mock_test_title,subject_name,question_text,option1,option2,option3,option4,correct_option,solution,marks,negative_marks
+NEET MOCK 1,Physics,The dimensional formula for gravitational potential is:,[L2T−2],[ML2T−2],[MLT−2],[M2L−1T−2],1,Gravitation: Gravitational Potential is Work per unit mass (W/M). [W]/[M]=[ML2T−2]/[M]=[L2T−2].,4,-1
+NEET MOCK 1,Physics,A particle moves with an initial velocity v=3i^+4j^​ and a constant acceleration a=0.4i^+0.3j^​. What is its speed after 10s?,10m/s,8m/s,7m/s,5m/s,1,Kinematics: Initial speed v0​=5m/s. Final velocity vf​=v+at=(3i^+4j^​)+(0.4i^+0.3j^​)10=7i^+7j^​. Final speed vf​=72+72​≈9.9m/s≈10m/s.,4,-1
+NEET MOCK 1,Physics,"One mole of ideal gas is taken through an isothermal process at temperature T. The work done is? (in terms of n, R, T)",nRT ln(Vf/Vi) (I),nRT ln(Vf/Vi) (II),None of these,nRT ln(Vf/Vi),1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"If a wire is stretched to double its length, its Young's modulus will: (Assume material remains elastic)",4 times the original,2 times the original,remain unchanged,1/4 times the original,3,"Properties of Solids: Young's modulus is a property of the material, independent of the sample dimensions.",4,-1
+NEET MOCK 1,Physics,"One mole of ideal gas is taken through an isothermal process at temperature T. The work done is? (in terms of n, R, T)",nRT ln(Vf/Vi) (II),None of these,nRT ln(Vf/Vi),nRT ln(Vf/Vi) (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,The magnetic force experienced by a charge q moving with velocity v in a magnetic field B is given by:,q(v⋅B),qvB,q(v×B),qE+q(v×B),3,Moving Charges and Magnetism: The Lorentz force due to a magnetic field is FB​=q(v×B).,4,-1
+NEET MOCK 1,Physics,The total internal reflection of light is possible when a ray of light passes from:,Air to Glass,Glass to Water,Air to Vacuum,Water to Air,4,Ray Optics: TIR occurs when light moves from an optically denser medium (Water) to an optically rarer medium (Air).,4,-1
+NEET MOCK 1,Physics,"One mole of ideal gas is taken through an isothermal process at temperature T. The work done is? (in terms of n, R, T)",None of these,nRT ln(Vf/Vi),nRT ln(Vf/Vi) (I),nRT ln(Vf/Vi) (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"A particle of mass m is projected with speed v at angle θ. The horizontal range is? For v = 15 m/s and θ = 30°, what is the horizontal range (take g = 10 m/s²)?",B,A,Use R = v² sin(2θ)/g,C,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"In an adiabatic process, which of the following remains constant?",Temperature,Pressure,Volume,Total heat,4,"Thermodynamics: By definition, an adiabatic process occurs without heat transfer (ΔQ=0).",4,-1
+NEET MOCK 1,Physics,"A particle of mass m is projected with speed v at angle θ. The horizontal range is? For v = 20 m/s and θ = 30°, what is the horizontal range (take g = 10 m/s²)?",A,C,Use R = v² sin(2θ)/g,B,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,The magnetic field at the centre of a circular current-carrying coil of radius R is proportional to:,R,1/R2,1/R,R2,3,"Moving Charges and Magnetism: B=μ0​I/(2R), so B∝1/R.",4,-1
+NEET MOCK 1,Physics,The de Broglie wavelength of an electron moving with momentum p is? (in terms of h and p),h/p (I),h/p (II),None of these,h/p,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"The ratio of RMS speed of O2​ and H2​ at the same temperature is: (Molecular masses: O2​=32,H2​=2)",4:1,1:4,01:16:00,16:1,2,Kinetic Theory of Gases (KTG): vrms​∝1/M​. Ratio vO2​​/vH2​​=MH2​​/MO2​​​=2/32​=1/4.,4,-1
+NEET MOCK 1,Physics,"One mole of ideal gas is taken through an isothermal process at temperature T. The work done is? (in terms of n, R, T)",nRT ln(Vf/Vi) (I),nRT ln(Vf/Vi),nRT ln(Vf/Vi) (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,A capacitor of capacitance C is charged to potential V. The energy stored is? (in terms of C and V),B,A,C,½ C V²,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,A capacitor of capacitance C is charged to potential V. The energy stored is? (in terms of C and V),½ C V²,B,A,C,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"One mole of ideal gas is taken through an isothermal process at temperature T. The work done is? (in terms of n, R, T)",nRT ln(Vf/Vi) (I),nRT ln(Vf/Vi) (II),None of these,nRT ln(Vf/Vi),1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,A capacitor of capacitance C is charged to potential V. The energy stored is? (in terms of C and V),A,C,½ C V²,B,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,The de Broglie wavelength of an electron moving with momentum p is? (in terms of h and p),h/p (II),h/p (I),None of these,h/p,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"In a full-wave rectifier circuit, if the input frequency is f, the output ripple frequency is:",f,f/2,2f,4f,3,"Semiconductor Electronics: A full-wave rectifier converts both half-cycles of the AC input, doubling the output ripple frequency.",4,-1
+NEET MOCK 1,Physics,"A particle of mass m is projected with speed v at angle θ. The horizontal range is? For v = 15 m/s and θ = 45°, what is the horizontal range (take g = 10 m/s²)?",B,A,Use R = v² sin(2θ)/g,C,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"When light passes from medium of refractive index n1 to n2, critical angle is given by? (in terms of n1 and n2)",A,C,B,sin⁻¹(n2/n1),1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,A capacitor of capacitance C is charged to potential V. The energy stored is? (in terms of C and V),½ C V²,C,B,A,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,The capacitance of a parallel plate capacitor becomes κ times when a dielectric is introduced. κ is the:,Electric field factor,Polarization factor,Dielectric constant,Susceptibility,3,"Electrostatics: κ is the relative permittivity or dielectric constant, defined as Cdielectric​/Cvacuum​.",4,-1
+NEET MOCK 1,Physics,"When light passes from medium of refractive index n1 to n2, critical angle is given by? (in terms of n1 and n2)",C,B,sin⁻¹(n2/n1),A,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"A particle of mass m is projected with speed v at angle θ. The horizontal range is? For v = 15 m/s and θ = 60°, what is the horizontal range (take g = 10 m/s²)?",Use R = v² sin(2θ)/g,B,C,A,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"When light passes from medium of refractive index n1 to n2, critical angle is given by? (in terms of n1 and n2)",sin⁻¹(n2/n1),C,B,A,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,A capacitor of capacitance C is charged to potential V. The energy stored is? (in terms of C and V),½ C V²,C,B,A,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,The process of adding impurity to an intrinsic semiconductor is called:,Rectification,Amplification,Doping,Tunnelling,3,Semiconductor Electronics: Doping is the process of intentionally introducing impurities to change the electrical properties of a semiconductor.,4,-1
+NEET MOCK 1,Physics,The de Broglie wavelength of an electron moving with momentum p is? (in terms of h and p),None of these,h/p,h/p (II),h/p (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"One mole of ideal gas is taken through an isothermal process at temperature T. The work done is? (in terms of n, R, T)",nRT ln(Vf/Vi),None of these,nRT ln(Vf/Vi) (II),nRT ln(Vf/Vi) (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,A capacitor of capacitance C is charged to potential V. The energy stored is? (in terms of C and V),A,½ C V²,C,B,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,A capacitor of capacitance C is charged to potential V. The energy stored is? (in terms of C and V),C,½ C V²,A,B,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,The energy of a photon of light with wavelength 500nm is approximately:,1.24eV,2.48eV,4.96eV,0.62eV,2,Dual Nature of Matter: E=1240eV⋅nm/λ(nm)=1240/500=2.48eV.,4,-1
+NEET MOCK 1,Physics,"One mole of ideal gas is taken through an isothermal process at temperature T. The work done is? (in terms of n, R, T)",nRT ln(Vf/Vi) (I),None of these,nRT ln(Vf/Vi),nRT ln(Vf/Vi) (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,The escape velocity from the Earth is ve​. What is the escape velocity from a planet with twice the radius and same average density as Earth?,ve​,2ve​,ve​/2,4ve​,2,"Gravitation: Escape velocity ve​∝Rρ​ (since M∝ρR3). If ρ is constant and R doubles, ve​ doubles.",4,-1
+NEET MOCK 1,Physics,The velocity of a particle executing SHM is maximum at:,The mean position,The extreme positions,Half the amplitude,1/4 the amplitude,1,Oscillations: The speed $,4,-1
+NEET MOCK 1,Physics,A wire of resistance R is cut into five equal pieces. These pieces are then connected in parallel. The equivalent resistance of the combination is:,R/5,5R,R/25,25R,3,"Current Electricity: Resistance of each piece is R/5. In parallel, Req​=(R/5)/5=R/25.",4,-1
+NEET MOCK 1,Physics,"When light passes from medium of refractive index n1 to n2, critical angle is given by? (in terms of n1 and n2)",A,sin⁻¹(n2/n1),C,B,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,A Carnot engine absorbs 100J of heat from a source at 400K and rejects 50J to the sink. The temperature of the sink is:,200K,300K,100K,250K,1,Thermodynamics: Tsink​/Tsource​=Qreject​/Qabsorb​. Tsink​=400K×(50J/100J)=200K.,4,-1
+NEET MOCK 1,Physics,"A particle of mass m is projected with speed v at angle θ. The horizontal range is? For v = 15 m/s and θ = 60°, what is the horizontal range (take g = 10 m/s²)?",B,C,Use R = v² sin(2θ)/g,A,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"One mole of ideal gas is taken through an isothermal process at temperature T. The work done is? (in terms of n, R, T)",nRT ln(Vf/Vi) (I),nRT ln(Vf/Vi) (II),nRT ln(Vf/Vi),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,The de Broglie wavelength of an electron moving with momentum p is? (in terms of h and p),h/p (II),None of these,h/p (I),h/p,1,Solution not provided.,4,-1
+NEET MOCK 1,Physics,"A particle of mass m is projected with speed v at angle θ. The horizontal range is? For v = 10 m/s and θ = 45°, what is the horizontal range (take g = 10 m/s²)?",A,B,Use R = v² sin(2θ)/g,C,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The pKa value is the negative logarithm of the:,Ionization energy,Acid dissociation constant Ka​,Base dissociation constant Kb​,pH,2,Ionic Equilibrium: pKa=−log10​(Ka​).,4,-1
+NEET MOCK 1,Chemistry,The number of significant figures in 0.005050 is:,3,4,6,7,2,"Some Basic Concepts of Chemistry: The leading zeros are non-significant. The zeros between non-zero digits and the trailing zero after the decimal point are significant. (5, 0, 5, 0) →4 sig figs.",4,-1
+NEET MOCK 1,Chemistry,The coordination number of central metal in [Cr(NH3)6]3+ is? (for given complex),9,6,4,12,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The geometry and hybridization of XeF4​ are:,"Tetrahedral, sp3","Square pyramidal, sp3d","Square planar, sp3d2","Octahedral, sp3d2",3,"Chemical Bonding: XeF4​ has 4 bond pairs and 2 lone pairs (Hybridization=sp3d2). Due to 2 lone pairs on opposite sides, the VSEPR geometry is square planar.",4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),ln 2 / t1/2,211,636,215,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,IUPAC name of CH3​CH2​CH2​NH2​ is:,Propyl amine,Propan-1-amine,1-Aminopropane,Propanamine,2,Organic Compounds with Nitrogen (Amines): The correct IUPAC name for this primary amine is Propan-1-amine.,4,-1
+NEET MOCK 1,Chemistry,The maximum number of electrons that can be accommodated in a subshell with azimuthal quantum number l=2 is:,2,6,10,14,3,Atomic Structure: l=2 corresponds to the d-subshell. The number of orbitals is 2l+1=5. Maximum electrons =2×5=10.,4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),424,216,211,ln 2 / t1/2,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Standard electrode potential of a cell is related to ΔG° by? (relation),−nFE° (I),−nFE°,None of these,−nFE° (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The functional group of a Ketone is:,−OH,−COOH,>C=O,−CHO,3,Organic Compounds with Oxygen: The keto group is a carbonyl group (>C=O) where carbon is bonded to two other carbon atoms.,4,-1
+NEET MOCK 1,Chemistry,Which reagent converts an alcohol to an alkyl halide? (common reagent),PBr3,4,9,6,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Which of the following is an example of a d−block element?,Na,Si,Ca,Fe,4,"d and f-Block Elements: Fe (Iron) is a transition element, part of the d-block. Na (s-block), Si (p-block), Ca (s-block).",4,-1
+NEET MOCK 1,Chemistry,The coordination number of central metal in [Cr(NH3)6]3+ is? (for given complex),9,18,6,7,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The solubility of a gas in a liquid is governed by which law?,Raoult's Law,Henry's Law,Dalton's Law,Boyle's Law,2,Solutions: Henry's Law states that the partial pressure of the gas is directly proportional to the mole fraction of the gas in the solution.,4,-1
+NEET MOCK 1,Chemistry,Which of the following is an amphoteric oxide? (example),27,69,Al2O3,22,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Standard electrode potential of a cell is related to ΔG° by? (relation),None of these,−nFE°,−nFE° (II),−nFE° (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Which reagent converts an alcohol to an alkyl halide? (common reagent),4,6,PBr3,7,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Standard electrode potential of a cell is related to ΔG° by? (relation),−nFE° (II),−nFE°,−nFE° (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Which reagent converts an alcohol to an alkyl halide? (common reagent),4,6,PBr3,6,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),ln 2 / t1/2,636,215,210,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The process of preventing corrosion by coating a metal with a thin layer of Zinc is called:,Anodizing,Electrolysis,Galvanization,Tinning,3,Electrochemistry/Surface Chemistry: Galvanization is the method of applying a protective Zinc coating to steel or iron to prevent rusting.,4,-1
+NEET MOCK 1,Chemistry,Standard electrode potential of a cell is related to ΔG° by? (relation),None of these,−nFE° (II),−nFE°,−nFE° (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Standard electrode potential of a cell is related to ΔG° by? (relation),−nFE° (II),−nFE° (I),None of these,−nFE°,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),636,ln 2 / t1/2,215,210,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,"The rate law for a reaction A+B→C is Rate=k[A]2. If the concentration of A is doubled, the reaction rate will:",Double,Quadruple,Halve,Remain unchanged,2,"Chemical Kinetics: Since Rate∝[A]2, doubling [A] leads to a (2)2=4 times increase in the rate.",4,-1
+NEET MOCK 1,Chemistry,Which of the following is an amphoteric oxide? (example),69,Al2O3,22,27,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Which of the following is an amphoteric oxide? (example),25,46,27,Al2O3,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Standard electrode potential of a cell is related to ΔG° by? (relation),None of these,−nFE° (II),−nFE°,−nFE° (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The coordination number of central metal in [Cr(NH3)6]3+ is? (for given complex),18,4,9,6,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The bond angle in water (H2​O) is approximately:,180∘,109.5∘,104.5∘,120∘,3,"Chemical Bonding: H2​O has sp3 hybridization with two lone pairs, which causes greater repulsion than bond pairs, reducing the angle from 109.5∘ to 104.5∘.",4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),213,215,636,ln 2 / t1/2,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),ln 2 / t1/2,215,424,210,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),215,424,210,ln 2 / t1/2,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Which reagent converts an alcohol to an alkyl halide? (common reagent),PBr3,4,7,9,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The process of heating the ore strongly in the absence of air is called:,Smelting,Calcination,Roasting,Electrolysis,2,"General Principles of Isolation of Metals (Metallurgy): Calcination involves heating the ore below its melting point, often to remove volatile impurities like carbonate or moisture, in the absence of air.",4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),215,210,ln 2 / t1/2,424,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Which process does ΔH equal ΔU for?,2SO2​(g)+O2​(g)→2SO3​(g),PCl5​(g)→PCl3​(g)+Cl2​(g),C(s)+O2​(g)→CO2​(g),N2​(g)+3H2​(g)→2NH3​(g),3,"Thermodynamics: ΔH=ΔU+Δng​RT. ΔH=ΔU when Δng​=0. For C(s)+O2​(g)→CO2​(g), Δng​=1−1=0. (The correct choice is actually C(s)+O2​(g)→CO2​(g), but since it is not an option, the closest for Δng​≈0 or if all states were liquid/solid. Assuming standard exam question structure where Δng​=0 is sought, option 3 is correct. Correction: Looking at the options, 2SO2​(g)+O2​(g)→2SO3​(g) gives Δng​=2−3=−1. N2​(g)+3H2​(g)→2NH3​(g) gives Δng​=2−4=−2. Only if all reactants/products are liquids/solids, or Δng​=0 is the answer. Given the options, let's assume the question meant C(s)+O2​(g)→CO2​(g) as the intended answer, but since it is listed as an option, it is the one with Δng​=0 among the possible 1 mole→1 mole change in gas moles. The correct choice is C(s)+O2​(g)→CO2​(g) which is option 3.",4,-1
+NEET MOCK 1,Chemistry,Which gas is responsible for the depletion of the ozone layer?,CO2​,SO2​,NO2​,CFCs,4,"Environmental Chemistry: Chlorofluorocarbons (CFCs) release Cl free radicals in the stratosphere, which catalyze the destruction of ozone.",4,-1
+NEET MOCK 1,Chemistry,KMnO4​ acts as an oxidizing agent in an acidic medium. The oxidation state of Mn changes from +7 to:,+2,+4,+6,+5,1,"Redox Reactions: In a strongly acidic medium, MnO4−​ is reduced to Mn2+. The change in oxidation state is +7 to +2.",4,-1
+NEET MOCK 1,Chemistry,The coordination number of central metal in [Cr(NH3)6]3+ is? (for given complex),6,10,4,18,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Which compound will undergo SN​1 reaction most readily?,CH3​Cl,CH3​CH2​Cl,(CH3​)2​CHCl,(CH3​)3​CCl,4,"Haloalkanes: SN​1 proceeds via the formation of a carbocation intermediate. Tertiary carbocations, such as from (CH3​)3​CCl, are the most stable.",4,-1
+NEET MOCK 1,Chemistry,Which of the following is an amphoteric oxide? (example),21,26,69,Al2O3,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),636,210,ln 2 / t1/2,215,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,The rate constant of a first-order reaction with half-life t1/2 is? (in terms of t1/2),636,211,215,ln 2 / t1/2,1,Solution not provided.,4,-1
+NEET MOCK 1,Chemistry,Which of the following is an amphoteric oxide? (example),46,24,26,Al2O3,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),None of these,Chlorophyll a (I),Chlorophyll a (II),Chlorophyll a,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),Xylem,Xylem (II),None of these,Xylem (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),None of these,Carrying capacity,Carrying capacity (I),Carrying capacity (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Double fertilization in angiosperms results in? (results in),Zygote and endosperm (I),None of these,Zygote and endosperm,Zygote and endosperm (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),Alleles segregate during gamete formation,None of these,Alleles segregate during gamete formation (I),Alleles segregate during gamete formation (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity (II),Carrying capacity,None of these,Carrying capacity (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),Alleles segregate during gamete formation,Alleles segregate during gamete formation (II),Alleles segregate during gamete formation (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Double fertilization in angiosperms results in? (results in),Zygote and endosperm (II),Zygote and endosperm,Zygote and endosperm (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity,Carrying capacity (I),None of these,Carrying capacity (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),Xylem (II),Xylem (I),None of these,Xylem,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),Chlorophyll a (II),None of these,Chlorophyll a,Chlorophyll a (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Double fertilization in angiosperms results in? (results in),Zygote and endosperm,Zygote and endosperm (I),None of these,Zygote and endosperm (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),Alleles segregate during gamete formation (I),Alleles segregate during gamete formation (II),Alleles segregate during gamete formation,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),Alleles segregate during gamete formation (II),Alleles segregate during gamete formation (I),Alleles segregate during gamete formation,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Double fertilization in angiosperms results in? (results in),None of these,Zygote and endosperm,Zygote and endosperm (I),Zygote and endosperm (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),Chlorophyll a (I),Chlorophyll a,Chlorophyll a (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity,Carrying capacity (II),None of these,Carrying capacity (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),None of these,Alleles segregate during gamete formation,Alleles segregate during gamete formation (II),Alleles segregate during gamete formation (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),Alleles segregate during gamete formation (I),Alleles segregate during gamete formation (II),Alleles segregate during gamete formation,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),Xylem,Xylem (II),Xylem (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),None of these,Xylem (I),Xylem,Xylem (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),Xylem (I),None of these,Xylem (II),Xylem,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),Chlorophyll a,Chlorophyll a (I),Chlorophyll a (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity (II),None of these,Carrying capacity (I),Carrying capacity,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),Alleles segregate during gamete formation (I),Alleles segregate during gamete formation,Alleles segregate during gamete formation (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),Alleles segregate during gamete formation (I),None of these,Alleles segregate during gamete formation (II),Alleles segregate during gamete formation,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),Chlorophyll a,None of these,Chlorophyll a (II),Chlorophyll a (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity (I),None of these,Carrying capacity,Carrying capacity (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),Chlorophyll a (I),Chlorophyll a,Chlorophyll a (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),Xylem (I),Xylem (II),Xylem,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Double fertilization in angiosperms results in? (results in),Zygote and endosperm,Zygote and endosperm (I),Zygote and endosperm (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity (II),Carrying capacity,None of these,Carrying capacity (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),Xylem (II),None of these,Xylem,Xylem (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Double fertilization in angiosperms results in? (results in),Zygote and endosperm,Zygote and endosperm (I),Zygote and endosperm (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Mendel's law of segregation describes? (basic concept),Alleles segregate during gamete formation,None of these,Alleles segregate during gamete formation (I),Alleles segregate during gamete formation (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),None of these,Chlorophyll a (I),Chlorophyll a,Chlorophyll a (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),Xylem,None of these,Xylem (II),Xylem (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),Chlorophyll a (I),None of these,Chlorophyll a,Chlorophyll a (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Double fertilization in angiosperms results in? (results in),Zygote and endosperm (I),Zygote and endosperm,None of these,Zygote and endosperm (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Double fertilization in angiosperms results in? (results in),None of these,Zygote and endosperm,Zygote and endosperm (I),Zygote and endosperm (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity,None of these,Carrying capacity (I),Carrying capacity (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,The tissue responsible for water conduction in plants is? (tissue name),Xylem (I),Xylem (II),None of these,Xylem,1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity,Carrying capacity (II),None of these,Carrying capacity (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which pigment is primarily responsible for light absorption in photosystem II? (pigment),Chlorophyll a,None of these,Chlorophyll a (I),Chlorophyll a (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Botany,Which term describes the maximum population size an environment can sustain? (ecology term),Carrying capacity (I),Carrying capacity (II),None of these,Carrying capacity,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),Nephron (II),Nephron,None of these,Nephron (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes,XY sex chromosomes (I),None of these,XY sex chromosomes (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes (I),None of these,XY sex chromosomes,XY sex chromosomes (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes (I),XY sex chromosomes (II),XY sex chromosomes,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes,None of these,XY sex chromosomes (I),XY sex chromosomes (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),Axon (II),Axon (I),None of these,Axon,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),None of these,Nephron,Nephron (I),Nephron (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The process by which new species arise is called? (term),Speciation (II),Speciation (I),Speciation,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),Arthropoda (I),Arthropoda (II),Arthropoda,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),Arthropoda,Arthropoda (I),None of these,Arthropoda (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),Nephron (I),Nephron,None of these,Nephron (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),Nephron (II),None of these,Nephron,Nephron (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),None of these,Nephron (II),Nephron,Nephron (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),Arthropoda,Arthropoda (I),Arthropoda (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),Arthropoda (I),Arthropoda (II),Arthropoda,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),Arthropoda,None of these,Arthropoda (I),Arthropoda (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),Axon,None of these,Axon (II),Axon (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),Axon,None of these,Axon (I),Axon (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),Arthropoda (II),None of these,Arthropoda (I),Arthropoda,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),None of these,XY sex chromosomes,XY sex chromosomes (I),XY sex chromosomes (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),Nephron,Nephron (I),Nephron (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),Axon,Axon (II),None of these,Axon (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The process by which new species arise is called? (term),Speciation (I),None of these,Speciation,Speciation (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),Nephron (I),Nephron (II),Nephron,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes (I),None of these,XY sex chromosomes,XY sex chromosomes (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The process by which new species arise is called? (term),Speciation (I),Speciation,Speciation (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),Nephron (II),Nephron,Nephron (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),Nephron (II),Nephron,Nephron (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The process by which new species arise is called? (term),Speciation (II),Speciation,Speciation (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),Axon (I),Axon (II),Axon,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes (II),None of these,XY sex chromosomes (I),XY sex chromosomes,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),None of these,Axon (II),Axon (I),Axon,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The process by which new species arise is called? (term),Speciation (I),None of these,Speciation,Speciation (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),None of these,Arthropoda,Arthropoda (I),Arthropoda (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),Axon (I),Axon,Axon (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes,XY sex chromosomes (I),None of these,XY sex chromosomes (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),Arthropoda (I),Arthropoda,Arthropoda (II),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The functional unit of kidney is? (name),Nephron (I),None of these,Nephron (II),Nephron,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which phylum has segmented body and jointed appendages? (phylum),Arthropoda,Arthropoda (II),Arthropoda (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),Axon (II),Axon,None of these,Axon (I),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Which part of neuron conducts impulse away from the cell body? (part),Axon (I),Axon (II),Axon,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The process by which new species arise is called? (term),Speciation (I),Speciation,None of these,Speciation (II),1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,The process by which new species arise is called? (term),Speciation (I),Speciation (II),Speciation,None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes,XY sex chromosomes (II),XY sex chromosomes (I),None of these,1,Solution not provided.,4,-1
+NEET MOCK 1,Zoology,Sex determination in humans depends on which chromosome? (human),XY sex chromosomes (I),XY sex chromosomes (II),None of these,XY sex chromosomes,1,Solution not provided.,4,-1
